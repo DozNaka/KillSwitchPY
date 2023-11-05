@@ -106,4 +106,4 @@ def initBot(user):
         print(f'[KILLSWITCH] {user} is no longer being lobbylocked.')
 
 
-client.run(TOKEN)
+client.run(TOKEN, log_handler=None)
